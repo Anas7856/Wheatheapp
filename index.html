@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="location_input">
+      <input id="city_input" type="text" placeholder="City" />
+      <button onclick="fetchWeather()">Get Weather</button>
+    </div>
+
+    <div class="output">
+      <div class="location_card">
+        <div class="location_card_head">
+          <img src="" alt="" id="icon" />
+          <h3 id="city_name">City name</h3>
+        </div>
+        <div class="location_card_body">
+          <h3>Temperature (C): <span id="temp_c"> 40 </span>C</h3>
+          <h3>Temperature (F): <span id="temp_f"> 40 </span>F</h3>
+          <h3>Windspeed: <span id="wSpeed"> 40 </span>Km/h</h3>
+
+          <h3>Condition: <span id="condition">Sunny</span></h3>
+          <h3>Wind degree: <span id="wind_degree">20</span></h3>
+          <h3>Wind direction : <span id="wind_dir">A</span></h3>
+          <h3>Wind speed: <span id="wind_speed"> 20 </span></h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

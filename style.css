@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  padding: 100px;
+}
+
+.location_input input {
+  padding: 5px;
+  border-radius: 0;
+  width: 30%;
+  border: 1px solid;
+  font-size: 16px;
+}
+
+.location_input button {
+  font-size: 16px;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.location_card {
+  box-shadow: 0 0 3px 2px rgb(202, 202, 202);
+  padding: 15px;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 25px;
+  text-align: left;
+}
+
+.location_card h3 {
+  margin-top: 7px;
+}
